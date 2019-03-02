@@ -16,8 +16,6 @@ dframe1 = pd.DataFrame(pd.read_csv('TrainsetTugas1ML.csv').as_matrix().tolist())
 dtrain = np.asarray(dframe1)
 stat = []
 
-for c in range(1,9):
-	label.append(list(set(dframe1[c].tolist())))
 
 # the reason why range 1-9 because the data train got 9 column
 
