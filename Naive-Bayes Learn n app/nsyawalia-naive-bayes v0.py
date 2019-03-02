@@ -12,8 +12,7 @@ print (what)
 import pandas as pd
 import numpy as np
 
-dframe1 = pd.DataFrame(pd.read_csv('TrainsetTugas1ML.csv').as_matrix().tolist())
-dtrain = np.asarray(dframe1)
+dframe1 = pd.DataFrame(pd.read_csv('TrainsetTugas1ML.csv').as_matrix().to  
 stat = []
 
 for c in range(1,9):
