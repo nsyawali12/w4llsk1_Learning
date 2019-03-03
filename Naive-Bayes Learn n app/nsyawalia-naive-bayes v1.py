@@ -85,7 +85,7 @@ for x in range(0, len(dTest)-1):
 
 print(finalR)
 
-with open('Final_Result_naiveBayes.csv', mode="w", newline="") as tugas1:
+with open('TebakanTugas1ML_1301164488.csv', mode="w", newline="") as tugas1:
 	hasilTugas1 = csv.writer(tugas1)
 	for t in range(0, len(finalR)):
 		hasilTugas1.writerow([finalR[t]])
