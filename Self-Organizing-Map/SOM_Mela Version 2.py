@@ -28,7 +28,7 @@ def findBMU(x1,x2):
             indeks=j
         j = j + 1
     return indeks
-    #weight yang sekarang dikurang sama nilai BMU
+    #the current weight is reduced by the BMU Value
 
 #Cari topological Neighborhood
 def Topological_Neighborhood(w,o): 
